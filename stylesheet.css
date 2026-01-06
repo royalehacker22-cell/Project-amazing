@@ -1,7 +1,7 @@
 *{margin:0px;
 padding: 0px;
 font-style: arial;
-border: border-box;}
+box-sizing: border-box;}
 
 .navbar{height: 50px;
 width: 1200px;
@@ -16,7 +16,7 @@ color: white;
   width: 100px;
   margin-top: -11px;
 }
-.logo{background-image: url(ama-logo.jpg);
+.logo{background-image: url("ama-logo.jpg");
       background-size: cover;
   height: 50px;
   width: 100%;
@@ -102,7 +102,7 @@ font-size:0.85rem;
 
 .hero-section{height: 500px;
 width: 1200px;
-  background-image: url(hero.png);
+  background-image: url("hero.png");
   background-size: cover;
   display: flex;
   justify-content: center;
